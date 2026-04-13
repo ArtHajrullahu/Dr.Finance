@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt &amp; Konsultë — Dr. Finance LLC</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+<body>
+
+
+
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="logo-name">Dr. Finance LLC</span>
+      <span class="logo-tag">Shërbime Financiare & Kontabilitet</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Ballina</a>
+      <a href="about.html" class="nav-link">Rreth Nesh</a>
+      <a href="services.html" class="nav-link">Shërbimet</a>
+      <a href="contact.html" class="nav-link active">Kontakt</a>
+    </nav>
+    <a href="contact.html" class="btn btn--navy header-cta">Cakto një Konsultë</a>
+  </div>
+</header>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="container--narrow">
+    <p class="section-label" style="text-align:center;">Caktoni një Konsultë</p>
+    <h1>Fillo me një Bisedë</h1>
+    <p>Takimi juaj i parë është falas dhe konfidencial. Ne do t'ju dëgjojmë dhe nuk do t'ju shesim asgjë.</p>
+  </div>
+</section>
+
+<!-- Contact Main -->
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Form -->
+      <div class="contact-form-wrap">
+        <p class="section-label">Kërkoni një Konsultë</p>
+        <h2>Na Tregoni Rreth Situatës Suaj</h2>
+        <p class="form-intro">Sa më shumë kontekst të ndani, aq më të përgatitur do të jemi për bisedën tonë të parë. Të gjitha informacionet mbahen rreptësisht konfidenciale.</p>
+        <form action="#" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">Emri</label>
+              <input type="text" id="first-name" name="first_name" placeholder="Margaret" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Mbiemri</label>
+              <input type="text" id="last-name" name="last_name" placeholder="Whitfield" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Adresa e Email-it</label>
+              <input type="email" id="email" name="email" placeholder="ti@shembull.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Numri i Telefonit</label>
+              <input type="tel" id="phone" name="phone" placeholder="(919) 555-0100">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="age-range">Gama e Moshës</label>
+            <select id="age-range" name="age_range">
+              <option value="" disabled selected>Zgjidhni gamën e moshës</option>
+              <option>Nën 40</option>
+              <option>40 – 49</option>
+              <option>50 – 59</option>
+              <option>60 – 69</option>
+              <option>70 ose më shumë</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="assets">Xhiroja Vjetore e Biznesit (përafërsisht)</label>
+            <select id="assets" name="annual_turnover">
+              <option value="" disabled selected>Zgjidhni një kategori</option>
+              <option>Nën 2 milionë Lekë</option>
+              <option>2 – 10 milionë Lekë</option>
+              <option>10 – 50 milionë Lekë</option>
+              <option>Mbi 50 milionë Lekë</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="concern">Shqetësimi Kryesor Financiar</label>
+            <select id="concern" name="primary_service">
+              <option value="" disabled selected>Për çfarë shërbimi jeni të interesuar?</option>
+              <option>Kontabilitet Financiar Mujor</option>
+              <option>Deklarata Tatimore &amp; TVSH</option>
+              <option>Regjistrim Biznesi i Ri</option>
+              <option>Konsulencë Financiare Strategjike</option>
+              <option>Auditimi i Brendshëm</option>
+              <option>Përpunim Pagash e Stafi</option>
+              <option>Tjetër</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Diçka tjetër që duhet të dimë?</label>
+            <textarea id="message" name="message" placeholder="Ndani çdo kontekst që mund të na ndihmojë të përgatitemi për bisedën tonë të parë. Nuk ka përgjigje të gabuara këtu."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary" style="width: 100%; font-size: 1rem; padding: 1rem;">Kërkoni një Konsultë</button>
+          <p style="font-size: 0.75rem; color: var(--gray); text-align: center; margin-top: 1rem;">Ne përgjigjemi brenda një dite pune. Informacioni juaj nuk ndahet apo shitet asnjëherë.</p>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info-section">
+        <p class="section-label">Zyra Jonë</p>
+        <h2>Kontaktoni me ne Drejtpërdrejt</h2>
+        <div class="gold-rule gold-rule--left"></div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <strong>Adresa e Zyrës</strong>
+            <p><br>Prishtinë<br></p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <strong>Telefoni</strong>
+            <p><a href="tel:+19195550192" style="color: var(--accent);">+383 49 663 211</a><br>Nga e Hëna në të Premte, 8:30am – 5:30pm ET</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:hello@crestlinewealth.com" style="color: var(--accent);">info@drfinance-ks.co</a><br>Ne përgjigjemi brenda një dite pune.</p>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><i class="fa-solid fa-video"></i></div>
+          <div>
+            <strong>Takime Virtuale të Disponueshme</strong>
+            <p>Ne punojmë me klientë në të gjithë Shqipërinë dhe mund të kryejmë të gjitha takimet nëpërmjet Zoom ose Google Meet nëse preferohet.</p>
+          </div>
+        </div>
+
+        <!-- Office exterior photo -->
+        <div class="map-placeholder">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section--alt">
+  <div class="container--narrow">
+    <div class="section-header">
+      <p class="section-label">Pyetje të Shpeshta</p>
+      <h2>Çfarë Pyesin Njerëzit Para Se Të Fillojnë</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">
+          A ofroni shërbime për bizneset e reja (STARTUP)?
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="faq-answer">
+          Po, ne kemi paketa të dedikuara për regjistrimin e bizneseve të reja, duke ju asistuar me QKB-në, pajisjen me kasë fiskale dhe hapjen e librave të parë kontabël.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Si përcaktohen tarifat tuaja mujore?
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="faq-answer">
+          Tarifat tona bazohen në vëllimin e transaksioneve, numrin e punonjësve dhe kompleksitetin e raportimeve që kërkon biznesi juaj. Ne ofrojmë një ofertë të personalizuar pas konsultës së parë.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          A na përfaqësoni para organeve tatimore?
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="faq-answer">
+          Po, Dr. Finance merr përsipër komunikimin me administratën tatimore, dorëzimin e deklaratave dhe përfaqësimin tuaj në rast kontrollesh apo rishikimesh fiskale.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Çfarë ndodh në takimin e parë?
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="faq-answer">
+          Takimi i parë zgjat 60 minuta dhe është tërësisht për ju. Ne do t'ju pyesim rreth situatës suaj aktuale, qëllimeve, shqetësimeve, dhe çfarë ka funksionuar ose i pafunksionuar në jetën tuaj financiare deri tani. Ne nuk do të shesim produkte apo t'ju nxitim për ndonjë vendim. Në fund, do t'ju japim një ide të sinqertë rreth asaj nëse mendojmë se mund t'ju ndihmojmë dhe si do të dukej bashkëpunimi ynë. Nuk ka presione dhe asnjë lloj detyrimi.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          A i menaxhoni ju asetet direkt, apo përdorni menaxherë nga jashtë?
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="faq-answer">
+          Ne menaxhojmë drejtpërdrejt investimet e klientëve tanë. Llogaritë mbahen në depozitë tek Charles Schwab ose Fidelity Investments — institucione të mëdha e të njohura ku ju e ruani pronësinë e plotë publike të çdo gjëje. Kemi mjet tregtar autorizimi por ne kurrë nuk bartim paratë drejt vetes. Ju merrni vërtetime direkt nga depozituesi po njësoj nga mosvarësia e dërgesave tona të lëthuara.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          Cila është filozofia juaj përçuar drejt investimeve?
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="faq-answer">
+          Ne ndjekim një metodë e cila drejton atë e mbeshtesim fuqimisht mbi qasjen pasive të provave dëshmuese ndaj portofoleve kundrejt portofoleve te pasura rreth marrëveshjeve me kompensim e po ashtu tregut dëshminë akademike. Përdorim index fonts ETF ndërkohë kemi mbulim për fond drejt faktorë të favorizuar vite të mbas vitesh dëshmi shkollare. Nuk i vihemi bas të fuqishëm tregut apo parashikimit spekuluesit. Synimi jona është portofol në rrafsh të paarsyeshëm apo gabimeve emcionale rreth e më gjatë mbajtjes cilësishme mbartjes ne treg të përfunduar.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Regulatory Disclosures -->
+<section class="section">
+  <div class="container--narrow">
+    <div class="section-header">
+      <p class="section-label">Të Dhëna Rregullatorësh</p>
+      <h2>Zbulimet</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div style="background-color: var(--white); border: 1px solid var(--gray-light); border-radius: var(--radius-md); padding: 2.5rem;">
+      <p style="font-size: 0.875rem; color: var(--gray); line-height: 1.85; margin-bottom: 1.25rem;"><strong style="color: var(--gray-dark);">Regjistrimi:</strong> Dr. Finance LLC është një subjekt i regjistruar në Qendrën Kombëtare të Biznesit (QKB) dhe i licencuar për shërbime kontabiliteti dhe konsulence. Ne operojmë sipas standardeve të anëtarësisë në IEKA.</p>
+      <p style="font-size: 0.875rem; color: var(--gray); line-height: 1.85; margin-bottom: 1.25rem;"><strong style="color: var(--gray-dark);">Përgjegjësia:</strong> Të gjitha këshillat financiare bazohen në legjislacionin aktual. Klientët njoftohen menjëherë për çdo ndryshim ligjor që mund të ndikojë në aktivitetin e tyre.</p>
+      <p style="font-size: 0.875rem; color: var(--gray); line-height: 1.85;"><strong style="color: var(--gray-dark);">Konfidencialiteti:</strong> Informacioni juaj trajtohet me konfidencialitet të plotë sipas Ligjit për Mbrojtjen e Të Dhënave Personale.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-name">Dr. Finance LLC</span>
+          <span class="logo-tag">Shërbime Financiare & Kontabilitet</span>
+        </div>
+        <p class="footer-tagline">Partneri juaj i besuar për kontabilitet, konsulencë financiare dhe administrim biznesi.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigimi</h4>
+        <ul>
+          <li><a href="index.html">Ballina</a></li>
+          <li><a href="about.html">Rreth Firmës</a></li>
+          <li><a href="services.html">Shërbimet</a></li>
+          <li><a href="contact.html">Kontakt &amp; Konsultë</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Shërbimet</h4>
+        <ul>
+          <li><a href="services.html">Kontabilitet Financiar</a></li>
+          <li><a href="services.html">Deklarata Tatimore</a></li>
+          <li><a href="services.html">Konsulencë Financiare</a></li>
+          <li><a href="services.html">Administrim Biznesi</a></li>
+          <li><a href="services.html">Ekonomist i Jashtëm</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <address>
+          Prishtinë<br>
+          <br>
+          <a href="tel:+35542220000">+383 48 663 210</a><br>
+          <a href="mailto:info@drfinance.al">info@drfinance-ks.co</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom" style="margin-top: 1.5rem;">
+      <div class="footer-bottom-row">
+        <p>&copy; 2026 Dr. Finance LLC. Të gjitha të drejtat e rezervuara.</p>
+        <p>Projektuar nga <a href="https://ict04.tech" target="_blank" rel="noopener">ICT04</a></p>
+        <div class="footer-legal-links">
+          <a href="#">Politika e Privatësisë</a>
+          <a href="#">Kushtet e Shërbimit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
+  if (navToggle && nav) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('nav-open');
+      navToggle.classList.toggle('active');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+  }
+</script>
+</body>
+</html>
